@@ -13,7 +13,7 @@
   > 一些工具函数
 5. config/logger.py
   > 公用日志
-* config/config
+6. config/config
   > 常量和参数指定
 
 ## 生成文件说明
