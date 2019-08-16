@@ -3,17 +3,17 @@
 每次运行都会取最新的订单号进行存储
 
 ## 程序文件说明
-1. main.py
+* main.py
   > 主函数
-2. spider/downloader.py
+* spider/downloader.py
   > 爬虫函数，负责下载信息
-3. modules/Db.py
+* modules/Db.py
   > 数据库替代函数，此程序没有使用已有的数据库管理工具，而是通过简单的文件存储来实现
-4. modules/tools.py
+* modules/tools.py
   > 一些工具函数
-5. config/logger.py
+* config/logger.py
   > 公用日志
-6. config/config
+* config/config
   > 常量和参数指定
 
 ## 生成文件说明
