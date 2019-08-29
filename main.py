@@ -1,27 +1,20 @@
 # -*- coding:utf-8 -*-
 # author:臧海彬
 # function:主函数
-try:
-    import requests
-    import xlwt
-    import sys
-    import os
-    import logging
-    import datetime
-    from config.logger import logger
-    from config.config import phone
-    from config.config import dirName
-    from config.config import title
-    from config.config import debug
-    from spider.downloader import Downloader
-    from modules.tools import getName
-    from modules.tools import stopExit
-except Exception as e:
-    print(e)
-else:
-    print("ok")
-
-input("暂停")
+import requests
+import xlwt
+import sys
+import os
+import logging
+import datetime
+from config.logger import logger
+from config.config import phone
+from config.config import dirName
+from config.config import title
+from config.config import debug
+from spider.downloader import Downloader
+from modules.tools import getName
+from modules.tools import stopExit
 
 # 是否是debug模式
 if debug:
